@@ -1,4 +1,4 @@
-package Collections.kotlin.collection;
+package Collections.kotlin_java.collection;
 
 import java.util.ArrayList;
 import java.util.Collections;

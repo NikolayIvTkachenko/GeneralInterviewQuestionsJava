@@ -1,4 +1,4 @@
-package Collections.kotlin.collection;
+package Collections.kotlin_java.collection;
 
 public class CollectionAppDemo02 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Collections.kotlin.collection_generic;
+package Collections.kotlin_java.collection_generic;
 
 import java.util.Iterator;
 
