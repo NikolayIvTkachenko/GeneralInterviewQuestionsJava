@@ -104,6 +104,12 @@ public class JavaStreamApp {
             people1.forEach(System.out::println);
         }));
         System.out.println("");
+        Optional<String> oldestFemaleAge = people.stream()
+            .filter(person -> person.getGender().equals(Gender.FEMALE))
+            .max(Comparator.comparing(Person::getAge))
+            .map(Person::getName);
+        oldestFemaleAge.ifPresent(name -> System.out.println(name));
+        System.out.println("");
 
     }
 
