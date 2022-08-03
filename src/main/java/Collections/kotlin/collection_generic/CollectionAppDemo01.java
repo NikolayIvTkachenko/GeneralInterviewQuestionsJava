@@ -1,4 +1,4 @@
-package Collections.kotlin;
+package Collections.kotlin.collection_generic;
 
 public class CollectionAppDemo01 {
 
@@ -23,5 +23,4 @@ public class CollectionAppDemo01 {
 
 
     }
-
 }
