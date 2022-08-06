@@ -23,7 +23,7 @@ public class DemoApp {
 
         //Тестирование
         //List<Integer> next = customListIterator.next();
-        
+
         Stream.generate(() -> null)
                 .takeWhile(x -> customListIterator.hasNext())
                 .map(t -> customListIterator.next())
