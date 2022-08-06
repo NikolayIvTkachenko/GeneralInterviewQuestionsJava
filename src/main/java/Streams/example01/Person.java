@@ -1,4 +1,4 @@
-package Streams;
+package Streams.example01;
 
 public class Person {
 

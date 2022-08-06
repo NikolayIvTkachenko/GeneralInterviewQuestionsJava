@@ -134,6 +134,9 @@ public class JavaStreamsApp01 {
         System.out.println("===End===");
 
 
+        // 15 map vs flatMap
+
+
     }
 
 
