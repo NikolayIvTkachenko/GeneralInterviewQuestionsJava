@@ -73,7 +73,7 @@ public class AppStreamDemo001 {
                 .noneMatch(person -> Gender.FEMALE.equals(person.gender));
 
         System.out.println(containsNoneFemales);
-        
+
 
     }
 
