@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class AppDemoThreadPool {
+public class AppDemoThreadPool010 {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
@@ -13,6 +13,7 @@ public class AppDemoThreadPool {
         executorService.submit(new MyRunnable());
         System.out.println(executorService.submit(new MyCallable()).get());
 
+        executorService.shutdown();
 
     }
 
