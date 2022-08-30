@@ -22,7 +22,6 @@ public class Sort_Selection {
                     min_index = j;
                 }
             }
-
             swap(i, min_index, data);
 
         }
