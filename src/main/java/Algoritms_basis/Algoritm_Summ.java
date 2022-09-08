@@ -1,4 +1,4 @@
-package algoritms_basis;
+package Algoritms_basis;
 
 public class Algoritm_Summ {
 

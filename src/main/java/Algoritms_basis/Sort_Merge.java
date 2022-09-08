@@ -1,4 +1,4 @@
-package algoritms_basis;
+package Algoritms_basis;
 
 
 import java.util.Arrays;
