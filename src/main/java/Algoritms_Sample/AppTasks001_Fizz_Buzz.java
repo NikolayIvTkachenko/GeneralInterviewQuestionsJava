@@ -1,6 +1,6 @@
 package Algoritms_Sample;
 
-public class AppTasks001 {
+public class AppTasks001_Fizz_Buzz {
 
     public static void main(String[] args) {
         //FizzBuzz. Вывести в консоль числа от 1 до 100, разделив их запятой с пробелом.
