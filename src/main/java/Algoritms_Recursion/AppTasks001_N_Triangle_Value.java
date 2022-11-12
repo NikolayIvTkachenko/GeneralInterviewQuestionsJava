@@ -21,6 +21,11 @@ public class AppTasks001_N_Triangle_Value {
 
         System.out.println("resultValue01 = " + resultValue01);
         System.out.println("resultValue02 = " + resultValue02);
+
+        System.out.println("Recursion Error: ");
+        testValue01 = 3;
+        resultValue01 = triangleRecursionError(testValue01);
+        System.out.println("resultValue01 = " + resultValue01);
     }
 
     //Loop
@@ -44,6 +49,16 @@ public class AppTasks001_N_Triangle_Value {
         }else {
             return (n + triangleRecursion(n - 1));
         }
+    }
+
+    //Recursion Error
+    //loopValues = 13629
+    //Exception in thread "main" java.lang.StackOverflowError
+    static int loopValues = 0;
+    static int triangleRecursionError(int n){
+        loopValues++;
+        System.out.println("loopValues = " + loopValues);
+        return (n + triangleRecursionError(n - 1));
     }
 
 }
