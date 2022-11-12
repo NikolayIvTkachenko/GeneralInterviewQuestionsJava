@@ -1,6 +1,6 @@
 package Algoritms_Recursion;
 
-public class AppTasks_Anagaramma {
+public class AppTasks003_Anagaramma {
 
     static int size;
     static int count;
