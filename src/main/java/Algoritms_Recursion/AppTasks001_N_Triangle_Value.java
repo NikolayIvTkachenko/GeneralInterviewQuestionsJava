@@ -2,6 +2,8 @@ package Algoritms_Recursion;
 
 public class AppTasks001_N_Triangle_Value {
 
+    //Рекурсия обычно применяется ради концептуального упрощения задачи, а не
+    //оттого, что она изначально более эффективна.
     public static void main(String[] args) {
         int testValue01 = 3;
         int testValue02 = 6;

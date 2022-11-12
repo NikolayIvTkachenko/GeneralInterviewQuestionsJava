@@ -13,7 +13,7 @@ abcc bac
 
 import java.util.ArrayList;
 
-public class AppTasks007_Anagrams {
+public class AppTasks007_isAnagrams {
 
     public static void main(String[] args) {
         String left01 = "abc";
