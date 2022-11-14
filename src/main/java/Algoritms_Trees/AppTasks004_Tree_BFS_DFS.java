@@ -17,7 +17,7 @@ package Algoritms_Trees;
 import Algoritms_Queue_Stack.SimpleQueue;
 import Algoritms_Queue_Stack.SimpleStack;
 
-public class AppTasks_Tree_BFS_DFS {
+public class AppTasks004_Tree_BFS_DFS {
 
     public static void main(String[] args) {
 

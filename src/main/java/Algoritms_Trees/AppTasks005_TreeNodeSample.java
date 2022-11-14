@@ -1,6 +1,6 @@
 package Algoritms_Trees;
 
-public class AppTasks_TreeNodeSample {
+public class AppTasks005_TreeNodeSample {
 
     public static void main(String[] args) {
 
