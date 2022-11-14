@@ -238,11 +238,29 @@ class TreeTraversal {
 
     //inoreder - симметричный
     public void inOrder(NodeV1 localRoot){
+        if(localRoot != null){
+            inOrder(localRoot.leftChild);
+            System.out.print(" " + localRoot.iData);
+            inOrder(localRoot.rightChild);
+        }
+    }
 
+    //preoreder - обратный
+    public void preOrder(NodeV1 localRoot){
         if(localRoot != null){
             System.out.print(" " + localRoot.iData);
             inOrder(localRoot.leftChild);
             inOrder(localRoot.rightChild);
+        }
+    }
+
+
+    //reorder - прямой
+    public void reOrder(NodeV1 localRoot){
+        if(localRoot != null){
+            inOrder(localRoot.leftChild);
+            inOrder(localRoot.rightChild);
+            System.out.print(" " + localRoot.iData);
         }
     }
 
