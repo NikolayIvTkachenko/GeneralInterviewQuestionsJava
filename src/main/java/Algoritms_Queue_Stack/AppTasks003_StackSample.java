@@ -1,4 +1,4 @@
-package Algoritms_Trees;
+package Algoritms_Queue_Stack;
 
 import Algoritms_Queue_Stack.SimpleStack;
 
