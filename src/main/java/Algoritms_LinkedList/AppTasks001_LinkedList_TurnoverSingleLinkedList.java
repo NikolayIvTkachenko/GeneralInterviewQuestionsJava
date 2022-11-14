@@ -35,7 +35,7 @@ public class AppTasks001_LinkedList_TurnoverSingleLinkedList {
 
         System.out.println("");
         System.out.println("===== Show Reverse List =====");
-        personList.reverse();
+        personList.reverseV2();
         for(Person person: personList){
             System.out.println(person);
         }
