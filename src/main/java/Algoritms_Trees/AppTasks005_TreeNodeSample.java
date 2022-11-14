@@ -1,7 +1,5 @@
 package Algoritms_Trees;
 
-import org.w3c.dom.Node;
-
 public class AppTasks_TreeNodeSample {
 
     public static void main(String[] args) {
