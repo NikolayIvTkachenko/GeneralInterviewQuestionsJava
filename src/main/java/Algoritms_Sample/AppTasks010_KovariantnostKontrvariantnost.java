@@ -2,6 +2,32 @@ package Algoritms_Sample;
 
 import java.util.ArrayList;
 
+
+//Инвариант List<Type>
+//Что можно присвоить: только List<Type>
+//Что можно прочитать: Type и предки Type
+//Что можно добавлять: Type и наследники Type
+//
+//
+//
+//
+//Ковариант List<? extends Type>
+//Что можно присвоить: list<Type> и List и настледников Type
+//Что можно прочитать: Type и предки Type
+//Что можно добавлять: ничего
+//
+//
+//
+//Контрвариант List<? super Type>
+//Что можно присвоить: List<Type> и List и предков Type
+//Что можно прочитать: Object
+//Что можно добавлять: Type и наследники Type
+//
+//
+
+
+
+
 public class AppTasks010_KovariantnostKontrvariantnost {
 
     public static void main(String[] args) {
