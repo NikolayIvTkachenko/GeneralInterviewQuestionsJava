@@ -11,7 +11,7 @@ public class AppTasks004_InsertionSort {
         System.out.println("");
         System.out.println("SHOW SORT ARRAY");
         System.out.println(arrayToString(insertionSort(array01)));
-        
+
     }
 
     private static int[] insertionSort(int[] array){
