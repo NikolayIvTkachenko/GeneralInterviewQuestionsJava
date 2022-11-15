@@ -69,6 +69,4 @@ public class AppTasks002_MergeSort {
         sb.append("]");
         return sb.toString();
     }
-
-
 }
