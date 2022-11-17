@@ -96,6 +96,7 @@ public class AppTasks012_Linked_List_Cycle {
         //Hash = 6acbcfc0
 
         System.out.println("Result = " + defineCycleWithPosition(node11));
+        System.out.println("Result 2 = " + defineCycleWithoutPosition(node11));
 
 
         //Example 02 =>  1 -> 2
@@ -106,6 +107,7 @@ public class AppTasks012_Linked_List_Cycle {
         node21.next = node22;
         node22.next = node21;
         System.out.println("Result = " + defineCycleWithPosition(node21));
+        System.out.println("Result 2 = " + defineCycleWithoutPosition(node21));
 
 
         //Example 03 =>  1
@@ -114,6 +116,7 @@ public class AppTasks012_Linked_List_Cycle {
         OneLinkedListNode node31 = new OneLinkedListNode(1);
         node31.next = null;
         System.out.println("Result = " + defineCycleWithPosition(node31));
+        System.out.println("Result 2 = " + defineCycleWithoutPosition(node31));
 
     }
 
@@ -147,7 +150,25 @@ public class AppTasks012_Linked_List_Cycle {
 
 
     private static boolean defineCycleWithoutPosition(OneLinkedListNode node){
+        Set<OneLinkedListNode> sets = new HashSet<>();
 
+        boolean key = true;
+        OneLinkedListNode current = node;
+        while(key) {
+
+            if(sets.contains(current)){
+                key = false;
+                return true;
+            }else{
+                if(current != null) {
+                    sets.add(current);
+                    current = current.next;
+                }else{
+                    key = false;
+                    return false;
+                }
+            }
+        }
         return false;
     }
 
